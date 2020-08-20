@@ -1,5 +1,6 @@
 import React from 'react';
 import '../sass/Header.css';
+import headerImage from '../imgs/header-image.jpg';
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                 </p>
             </div>
             <div className="header-image">
-                <img src={"../imgs/header-image.jpg"} alt="header-image"/>
+                <img src={headerImage} alt="header-image"/>
             </div>
         </header>
     )
