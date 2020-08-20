@@ -1,0 +1,59 @@
+.navbar a.navbar-logo {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navbar li.navbar-item {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header .header-title {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+header .header-desc {
+  color: blue;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  background-color: red;
+}
+
+.navbar a.navbar-logo {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.navbar ul.navbar-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  list-style: none;
+}
+
+.navbar ul.navbar-items li.navbar-item {
+  padding: 0 80px 0 0;
+}
+
+.navbar ul.navbar-items li.navbar-item:hover {
+  color: blue;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,3 +1,5 @@
-@mixin mixintest($font-size) {
-    font-size: $font-size;
+@mixin fontTypo($color, $size, $weight) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
 }

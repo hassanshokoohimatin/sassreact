@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './sass/App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      <h1>This is Header</h1>
+      <Navbar />
+      <Header />
     </div>
   );
 }

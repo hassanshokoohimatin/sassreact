@@ -1,0 +1,27 @@
+@import './mixin';
+@import './typography';
+
+.navbar{
+    display: flex;
+    padding: 20px 20px;
+    background-color: red;
+    a.navbar-logo{
+        flex-basis: 40%;
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    ul.navbar-items{
+        display: flex;
+        flex-basis: 60%;
+        list-style: none;
+
+        li.navbar-item{
+            padding: 0 80px 0 0;
+            &:hover{
+                color: blue;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+    }
+}

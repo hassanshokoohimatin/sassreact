@@ -1,0 +1,56 @@
+.navbar a.navbar-logo {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navbar li.navbar-item {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header .header-title {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+header .header-desc {
+  color: blue;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 70px 50px;
+  width: 100%;
+  height: 100vh;
+  background-color: darkkhaki;
+}
+
+header.header .header-content {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+header.header .header-content h1.header-title {
+  padding-bottom: 50px;
+}
+
+header.header .header-content p.header-desc {
+  padding-left: 70px;
+}
+
+header.header .header-image {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+header.header .header-image img {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=Header.css.map */

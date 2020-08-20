@@ -1,0 +1,22 @@
+@import './mixin';
+@import './variables';
+
+// Navbar
+.navbar{
+    a.navbar-logo{
+        @include fontTypo($black-color, 30px, 600);
+    }
+    li.navbar-item{
+        @include fontTypo($white-color, 20px, 400);
+    }
+}
+
+//Header
+header{
+    .header-title{
+        @include fontTypo($black-color, 40px, 800);
+    }
+    .header-desc{
+        @include fontTypo(blue, 25px, 600);
+    }
+}

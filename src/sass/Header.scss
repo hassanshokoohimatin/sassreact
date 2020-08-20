@@ -1,0 +1,25 @@
+@import './mixin';
+@import './typography';
+
+header.header{
+    display: flex;
+    padding: 70px 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: darkkhaki;
+    .header-content{
+        flex-basis: 60%;
+        h1.header-title{
+            padding-bottom: 50px;
+        }
+        p.header-desc{
+            padding-left: 70px;
+        }
+    }
+    .header-image{
+        flex-basis: 40%;
+        img{
+            border: 1px solid red;
+        }
+    }
+}
