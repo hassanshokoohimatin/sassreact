@@ -1,0 +1,5 @@
+@import './mixin';
+h1{
+    color: blue;
+    @include mixintest(80px);
+}
